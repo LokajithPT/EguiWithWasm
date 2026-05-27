@@ -4,7 +4,7 @@ fn main() -> eframe::Result<()> {
     eframe::run_native(
         "wasmandegui",
         options,
-        Box::new(|_cc| Ok(Box::new(wasmandegui::WasmandeguiApp::default()))),
+        Box::new(|cc| Ok(Box::new(wasmandegui::WasmandeguiApp::new(cc)))),
     )
 }
 

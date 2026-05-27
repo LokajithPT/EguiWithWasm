@@ -3318,6 +3318,8 @@ version = "0.1.0"
 dependencies = [
  "eframe",
  "log",
+ "quick-xml",
+ "serde",
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "web-sys",

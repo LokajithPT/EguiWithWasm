@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <app name="EguiWithWasm" version="1.0.0"/>
+    <description>A cross-platform egui application written in Rust</description>
+    <author>LokajithPT</author>
+    <settings>
+        <theme>dark</theme>
+        <language>en</language>
+        <font_size>14</font_size>
+    </settings>
+    <features>
+        <feature name="native" active="true"/>
+        <feature name="web" active="true"/>
+        <feature name="mobile" active="false"/>
+        <feature name="wasm" active="true"/>
+        <feature name="android" active="false"/>
+    </features>
+    <users>
+        <user id="1" role="admin" name="Alice" email="alice@example.com"/>
+        <user id="2" role="editor" name="Bob" email="bob@example.com"/>
+        <user id="3" role="viewer" name="Charlie" email="charlie@example.com"/>
+        <user id="4" role="editor" name="Diana" email="diana@example.com"/>
+    </users>
+</config>
